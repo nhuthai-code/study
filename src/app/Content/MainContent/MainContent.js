@@ -1,8 +1,9 @@
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./page.module.css"; // Import CSS module
+import styles from "./page.module.css";
 
 // Dữ liệu sản phẩm (đảm bảo id duy nhất)
+// Khai báo biến products để làm list thông tin sản phẩm
 const products = [
   {
     id: "java-veloce",
