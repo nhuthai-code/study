@@ -55,11 +55,11 @@
   color: #d9534f;
 }
 
-:global(a) {
+.link {
   text-decoration: none;
 }
 
-:global(a:hover) {
+.link:hover {
   text-decoration: none;
 }
 
